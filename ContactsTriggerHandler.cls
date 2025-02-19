@@ -25,7 +25,6 @@ public class ContactsTriggerHandler {
             acc.Number_of_US_Contacts__c = USContacts.containskey(accid)? USContacts.get(accid):0;updateaccs.add(acc);
             update updateaccs;
         }
-        
 
     }
     
